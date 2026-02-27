@@ -1,0 +1,78 @@
+[not-available=showfull]
+	<!-- Теги -->
+	<div class="block tags_block">
+		<h4 class="title"><b>Теги</b></h4>
+		<div class="tag_list">
+			{tags}
+		</div>
+	</div>
+	<!-- / Теги -->
+<aside class="rightside">
+	<!-- / Популярное -->
+	<div class="block arch_block">
+		<div class="title h4 title_tabs" style="background-color: black; color: white;">
+			<h4>Партнеры</h4>
+		</div> <nav class="">
+                <ul class="">                                   
+					<li><a href="https://meistru.lt/">Statybininkų, meistrų katalogas</a></li>
+					<li><a href="https://edukvam.com" target="_blank" rel="nofollow">Statybos skelbimai</a></li>
+					<li><a href="https://reklama.website">Verslo reklamos užsakymas</a></li>
+					<li><a href="https://mycreative.site/">Užsakyti interneto svetainės kūrimą</a></li>
+					<li><a href="https://realestete.site/">REALESTETE Nekilnojamojo turto Lietuvoje </a></li>
+					<li><a href="https://REILTO.com/">REILTO.com - Nekilnojamas turtas Ukrainoje</a></li>	
+						
+                </ul>
+            </nav>	
+		<!--  Андроид приложение -->
+		<div class="banner banner_240"><b><a href="/meistru.apk">Скачать приложение Android</a></b></br>
+		<a href="/meistru.apk"><img src="{THEME}/images/tmp/google_play.png"  alt="Приложения для мобильного андроид"></a>
+	</div>
+	<!--  Андроид приложение -->
+	<!-- Баннер 300X250 -->
+	<div class="banner banner_300">
+		<a href="/reklama.html"><img href="/reklama.html" src="{THEME}/images/tmp/banner_300x250_1.png" alt="Реклама партнеров"></a>
+	</div>
+	<!-- / Баннер 300X250 -->
+	<!-- Баннер 240X400 -->
+	<div class="banner banner_240">
+		<a href="/reklama.html"><img src="{THEME}/images/tmp/banner_240x400_2.png" alt="Еще реклама"><a/>
+	</div>
+	<!-- / Баннер 240X400 -->
+	<!--{vote} -->
+	[available=main|cat]
+	<!-- Архив -->
+	<div class="block arch_block">
+		<div class="title h4 title_tabs">
+			<h4>Архив</h4>
+			
+		</div>
+		
+			
+			<div class="tab-pane" id="arch_list">{archives}</div>
+		
+	</div>
+	<!-- / Архив -->
+	<!-- Последние комментарии -->
+<div class="block top_block">
+		<h4 class="title"><b>Последние комментарии</b></h4>
+		<ul class="lastcomm">
+			{customcomments template="modules/lastcomments" available="global" from="0" limit="5" order="date" sort="desc" cache="yes"}
+		</ul>
+	</div>
+	<!-- / Последние комментарии -->
+	[/available]
+
+<li><a href="https://meistru.lt/">Каталог строителей и мастеров</a></li>
+<li><a href="https://edukvam.com" target="_blank" rel="nofollow">Объявления о строительстве</a></li>
+<li><a href="https://reklama.website">Заказ рекламы бизнеса</a></li>
+<li><a href="https://mycreative.site/">Заказать создание веб-сайта</a></li>
+<li><a href="https://realestete.site/">REALESTETE Недвижимость в Литве</a></li>
+<li><a href="https://REILTO.com/">REILTO.com - Недвижимость в Украине</a></li>
+		
+	<!-- Последние комментарии -->
+	[available=main]
+
+	[/available]
+	<!-- / Последние комментарии -->
+</aside>
+[/not-available]

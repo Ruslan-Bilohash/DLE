@@ -1,0 +1,54 @@
+[tags]
+<!-- Теги -->
+<div class="block tags_block">
+	<h4 class="title"><b>Теги</b></h4>
+	<div class="tag_list">
+		{tags}
+	</div>
+</div>
+<!-- / Теги -->
+[/tags]
+<div class="block rel_block">
+<h4 class="title" style="background-color: black; color: white;"><b>Партнеры</b></h4>
+		<nav class="">
+                  <nav class="">                        
+					<li><a href="https://meistru.lt/">Statybininkų, meistrų katalogas</a></li>
+					<li><a href="https://edukvam.com" target="_blank" rel="nofollow">Statybos skelbimai</a></li>
+					<li><a href="https://reklama.website">Verslo reklamos užsakymas</a></li>
+					<li><a href="https://mycreative.site/">Užsakyti interneto svetainės kūrimą</a></li>
+					<li><a href="https://realestete.site/">REALESTETE nekilnojamojo turto Lietuvoje </a></li>
+					<li><a href="https://REILTO.com/">REILTO.com - Nekilnojamas turtas Ukrainoje</a></li>	
+                </ul>
+            </nav></div>
+[related-news] 
+<!-- Похожее -->
+<div class="block rel_block" >
+	<h4 class="title" style="background-color: black; color: white;"><b>Похожее</b></h4>
+	<ul class="relnews">
+		{related-news}
+		
+	</ul>
+</div>
+<!-- / Похожее -->
+[/related-news] 
+[poll]
+{poll}
+[/poll]
+<!--  Андроид приложение -->
+		<div class="banner banner_240"><b><a href="/meistru.apk">Скачать приложение Android</a></b></br>
+		<a href="/meistru.apk"><img src="{THEME}/images/tmp/google_play.png"  alt="Приложения для мобильного андроид"></a>
+	</div>
+	<!--  Андроид приложение -->
+<!-- Баннер 300X250 -->
+	<div class="banner banner_300">
+		<a href="/reklama.html"><img href="/reklama.html" src="{THEME}/images/tmp/banner_300x250_1.png" alt="Реклама парнеров"></a>
+	</div>
+	<!-- / Баннер 300X250 -->
+	<!-- Баннер 240X400 -->
+	<div class="banner banner_240">
+		<a href="/reklama.html"><img src="{THEME}/images/tmp/banner_240x400_2.png" alt="Еще одна реклама"><a/>
+	</div>
+	
+	<!-- / Баннер 240X400 -->
+
+
