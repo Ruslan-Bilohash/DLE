@@ -141,11 +141,3 @@ MIT License — free to use in personal and commercial projects.
 **Developed specially for meistru.lt** ❤️  
 Author: Ruslan Bilohash  
 Last updated: February 27, 2026
-
-Need anything else?
-- Dark mode version
-- Additional .tpl files (userprofile.tpl, tagscloud.tpl, etc.)
-- English/Norwegian version of the whole site
-- New blocks or color changes
-
-Just write — I will improve it immediately!
