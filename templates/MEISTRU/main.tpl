@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html[available=lostpassword|register] class="page_form_style"[/available] lang="ru">
 <head>
-
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3637655218748240"
+     crossorigin="anonymous"></script>
 	{headers}
 	<meta name="HandheldFriendly" content="true">
 	<meta name="format-detection" content="telephone=no">
@@ -25,7 +26,18 @@
 	{include file="{THEME}/js/lib.js"}
 	{* Включаем режим google adsens *}
 
-   
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11515092304">
+</script>
+    
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11515092304');
+</script>
+    
     </head>
 <body>
 

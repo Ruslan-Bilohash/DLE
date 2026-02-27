@@ -1,0 +1,108 @@
+<article class="box story[fixed] fixed_story[/fixed] shortstory" style="border: 1px solid black;">
+	<div class="box_in">
+		[not-group=5]
+		<ul class="story_icons">
+			<li class="fav_btn">
+				[add-favorites]<span title="Добавить в закладки"><svg class="icon icon-fav"><use xlink:href="#icon-fav"></use></svg></span>[/add-favorites]
+				[del-favorites]<span title="Убрать из закладок"><svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg></span>[/del-favorites]
+			</li>
+			<li class="edit_btn">
+				[edit]<i title="Редактировать">Редактировать</i>[/edit]
+			</li>
+		</ul>
+		[/not-group]
+		<h2 class="title">{title}</h2>
+		<div class="text share-content">		
+			{full-story}
+        [group=5] 
+            <div style="border: 1px solid black;">
+                <!--<span style="margin-left: 15px;"></span>-->
+<p>Внимание! Для публикации объявлений, услуг, резюме, вакансий, контактов, номеров телефона и другой информации.
+    Войдите под своим логином или авторизуйтесь через:<center> [google]  <a class="btn soc_gp" style="background-color: color: white;" href="{google_url}"><svg class="icon icon-gp"><use xlink:href="#icon-gp"/></svg> Войдите через Google+</a></h2>[/google]<center></br></div></p> 
+<div style="border: 1px solid black;color: rgb(45, 194, 107);"> <p>Dėmesio! Skelbti skelbimus, paslaugas, gyvenimo aprašymus, laisvas darbo vietas, kontaktus, telefono numerius ir kitą informaciją. Prisijunkite naudodami savo vartotojo vardą arba prisijunkite per: <center>[google]  <a class="btn soc_gp" style="background-color: color: white;" href="{google_url}"><svg class="icon icon-gp"><use xlink:href="#icon-gp"/></svg> Prisijungti per Google+</a></h2>[/google]</center></br></div></p> </div>
+
+                       <!-- [facebook]<a class="btn" style="background-color: ; color: white;" href="{facebook_url}"> Facebook</a><i></i></h2>[/facebook] -->
+         
+[/group]
+<fieldset>
+ <legend><p>Добавьте объявления"</p></legend>
+    в категорию:
+ <center><a class="btn" style="background-color: #4682b4; color: #ffffff;" href="/addnews.html">{category}</a></center>
+</fieldset>
+
+            </br>[xfvalue_images_all]</br>[tags]<div class="tags">Теги: {tags}</div>[/tags] 			
+</br>Бесплатный сайт объявлений, поиска услуг, вакансий, мастеров и заказов в Литве. </br><a href="https://meistru.lt/"> MEISTRU. LT</a>			
+			</br>
+</br>Категории: {link-category}
+			[edit-date]<p class="editdate grey">Новость отредактировал: <b>{editor}</b> - {edit-date}<br>
+			[edit-reason]Причина: {edit-reason}[/edit-reason]</p>[/edit-date]
+		</div>
+		{pages}
+		<div class="story_tools">
+			[rating]
+				<div class="rate">
+					[rating-type-1]<div class="rate_stars">{rating}</div>[/rating-type-1]
+					[rating-type-2]
+					<div class="rate_like">
+					[rating-plus]
+						<svg class="icon icon-love"><use xlink:href="#icon-love"></use></svg>
+						{rating}
+					[/rating-plus]
+					</div>
+					[/rating-type-2]
+					[rating-type-3]
+					<div class="rate_like-dislike">
+						[rating-plus]<span title="Нравится"><svg class="icon icon-like"><use xlink:href="#icon-like"></use></svg></span>[/rating-plus]
+						{rating}
+						[rating-minus]<span title="Не нравится"><svg class="icon icon-dislike"><use xlink:href="#icon-dislike"></use></svg></span>[/rating-minus]
+					</div>
+					[/rating-type-3]
+					[rating-type-4]
+					<div class="rate_like-dislike">
+						<span class="ratingtypeplusminus ratingplus">{likes}</span>
+						[rating-plus]<span title="Нравится"><svg class="icon icon-like"><use xlink:href="#icon-like"></use></svg></span>[/rating-plus]
+						<span class="ratingtypeplusminus ratingminus">{dislikes}</span>
+						[rating-minus]<span title="Не нравится"><svg class="icon icon-dislike"><use xlink:href="#icon-dislike"></use></svg></span>[/rating-minus]
+					</div>
+					[/rating-type-4]
+				</div>
+			[/rating]
+		</div>
+		[fixed]<span class="fixed_label" title="Важная новость"></span>[/fixed]
+	</div>
+	<div class="meta" >
+		<ul class="right" >
+			<li class="complaint" title="Жалоба">[complaint]<span class="">Не актуально?</span>[/complaint]</li>
+			<li class="story_date"><svg class="icon icon-info"><span class="grey">  </span><time datetime="{date=Y-m-d}" class="grey">[day-news]{date}[/day-news]</time></li>
+		</ul>
+		<ul class="left">
+			<li> [profile]<b>{fullname}</b>[/profile]</li>
+			<!--<li><span>Переглядів:</span>{views}</li>-->
+		</ul>
+	</div>
+</article>
+<div class="rightside">
+	{include file="modules/rightside_fullstory.tpl"}
+</div>
+<div class="box next-prev">
+	[prev-url]<a href="{prev-url}" class="btn" style="background-color: black; color: white;">Предыдущая</a>
+[/prev-url]
+	[next-url]<a href="{next-url}" class="btn right" style="background-color: black; color: white;" >Следующая</a>[/next-url]
+</div>
+<div class="comments">
+	<div class="box">
+		[comments]<h4 class="heading" style="background-color: black; color: white;">Комментарии - отзыв <span class="grey hnum">{comments-num}</span></h4>[/comments]
+		<div class="com_list" >
+			{comments}
+		</div>
+	</div>
+	{navigation}
+    <!--
+[banner_google]
+{banner_google}
+[/banner_google]
+[banner_baner_main]
+{banner_baner_main}
+[/banner_baner_main] -->	
+</div>
+<div class="comments" style="border: 1px solid black;">{addcomments}</div>
